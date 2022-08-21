@@ -6,13 +6,15 @@ LoadLoop();
 
 function LoadLoop(){
 
-  processChecks();
-  processGeneralText();
+  let charName = document.getElementById("character-name").innerHTML;
+
+  processChecks(charName);
+  processGeneralText(charName);
 
   setTimeout(LoadLoop, 1500);// 1.5 seconds
 }
 
-function processChecks() {
+function processChecks(charName) {
 
   $('.stat-roll-btn:not(.TSExtensionAttacksModified)').each(function() {
     
@@ -31,7 +33,7 @@ function processChecks() {
 //    console.log($(this)[0].value)
 //    console.log($(this)[0].children.value)
 //    console.log($(this)[0].children[0].value)
-    $(this)[0].addEventListener('click', function(){Roll($(this)[0].children[0].value); });
+    $(this)[0].addEventListener('click', function(){Roll($(this)[0].children[0].value, charName); });
     $(this).addClass('TSExtensionAttacksModified');
 
   });
@@ -39,7 +41,7 @@ function processChecks() {
 }
 
 
-function processGeneralText(){
+function processGeneralText(charName){
 
   let label = '';
   if($('#quickviewDefault').hasClass('is-active')){
@@ -61,7 +63,7 @@ function processGeneralText(){
 //      console.log($(this).innerHTML)
 //      console.log($(this)[0].innerHTML)
 //      console.log($(this)[0].children[0].innerHTML)
-      $(this)[0].addEventListener('click', function(){Roll($(this)[0].children[0].value); });
+      $(this)[0].addEventListener('click', function(){Roll($(this)[0].children[0].value, charName); });
 
     }
     $(this).addClass('TSExtensionAttacksModified');
@@ -85,7 +87,7 @@ function processGeneralText(){
 //      console.log($(this).innerHTML)
 //      console.log($(this)[0].value)
 //      console.log($(this)[0].children[0].value)
-      $(this)[0].children[0].addEventListener('click', function(){Roll($(this)[0].children[0].value); });
+      $(this)[0].children[0].addEventListener('click', function(){Roll($(this)[0].children[0].value, charName); });
     }
 
     $(this).addClass('TSExtensionAttacksModified');

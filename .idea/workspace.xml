@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="304e4fbc-2d83-4519-a49a-b753885ef810" name="Default Changelist" comment="A very early version" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2DOlIQ59F55Wmn3s5w42P1Y75Te" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Finn\Documents\Math_rock\OMM stuff\Tales-of-2e-main\Tales-of-2e-main\scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Finn\Documents\Math_rock\OMM stuff\Tales-of-2e-main\Tales-of-2e-main\scripts" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="304e4fbc-2d83-4519-a49a-b753885ef810" name="Default Changelist" comment="" />
+      <created>1660577933747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660577933747</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1660921245283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1660921245283" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1660929347411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660929347411" />
+    <state x="784" y="440" key="Github.CreateGistDialog" timestamp="1660943030116">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="784" y="440" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660943030116" />
+    <state x="820" y="418" width="280" height="276" key="Github.ShareDialog" timestamp="1660943055413">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="820" y="418" width="280" height="276" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1660943055413" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1660943113072">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1660943113072" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1660942823087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1660942823087" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1660943169956">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1660943169956" />
+  </component>
+</project>

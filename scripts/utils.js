@@ -99,14 +99,13 @@ function signNum(num){
 
 // What continues is the bs I threw together to roll simple checks n damage rolls
 
-function Roll(rollString) {
-  let charName = document.getElementById("character-name").innerHTML;
-  var webhook = "YOUR DISCORD WEBHOOKS URL GOES HERE"
-//  console.log('roll function begin')
+function Roll(rollString, charName="") {
+
+  console.log('roll function begin')
 //  console.log(webhook)
 //  One day I would like that url to be a thing a user adds
 //  console.log(HOOK_LINK)
-//  console.log(rollString)
+  console.log(rollString)
   rollString = rollString.split('|')
   for (let i = 0; i < rollString.length; i++) {
 //    console.log(rollString[i])
@@ -117,22 +116,27 @@ function Roll(rollString) {
     const sum = results.reduce((partialSum, a) => partialSum + a, 0);
 //    console.log(sum)
 
-    let xhr = new XMLHttpRequest();
-    xhr.open("POST", webhook);
 
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.setRequestHeader("Content-Type", "application/json");
 
-    xhr.onload = () => console.log(xhr.responseText);
+    chrome.storage.sync.get({
+      discordWebhookURL: 'Enter URL'
+    }, function(items) {
+//      test
+      let xhr = new XMLHttpRequest();
+      console.log(items.discordWebhookURL)
+      xhr.open("POST", items.discordWebhookURL)
+      xhr.setRequestHeader("Accept", "application/json");
+      xhr.setRequestHeader("Content-Type", "application/json");
 
-    let data = {
-      "username": charName,
-      "content": formatRoll(rollString[i].join(': '), results),
-    };
+      xhr.onload = () => console.log(xhr.responseText);
 
-//    console.log(data)
+      let data = {
+        "username": charName,
+        "content": formatRoll(rollString[i].join(': '), results),
+      };
 
-    xhr.send(JSON.stringify(data));
+      xhr.send(JSON.stringify(data));
+      })
 
   }
 }
